@@ -1,6 +1,7 @@
 [
     {
         "id": 1,
+        "picked": false,
         "name": "Poe",
         "image": "https://thefootbawlblog.files.wordpress.com/2012/03/ravens-mascot-430a081108.jpg",
         "occupation": "Baltimore Ravens Mascot",
@@ -8,6 +9,7 @@
     },
     {
         "id": 2,
+        "picked": false,
         "name": "Billy Buffalo",
         "image": "https://cdn-s3.si.com/s3fs-public/images/Buffalo-Bills-mascot-Billy-Buffalo.jpg",
         "occupation": "Buffalo Bills Mascot",
@@ -15,6 +17,7 @@
     },
     {
         "id": 3,
+        "picked": false,
         "name": "Who Dey",
         "image": "https://cdn-s3.si.com/s3fs-public/images/Cincinnati-Bengals-Who-Dey.jpg",
         "occupation": "Cincinnati Bengals Mascot",
@@ -22,6 +25,7 @@
     },
     {
         "id": 4,
+        "picked": false,
         "name": "Miles",
         "image": "https://imagesvc.timeincapp.com/v3/fan/image?url=https://predominantlyorange.com/wp-content/blogs.dir/46/files/2016/01/nfl-san-diego-chargers-denver-broncos-5-300x600.jpg&c=sc&w=300&h=438",
         "occupation": "Denver Broncos Mascot",
@@ -29,6 +33,7 @@
     },
     {
         "id": 5,
+        "picked": false,
         "name": "Toro",
         "image": "https://i.pinimg.com/originals/e5/61/f9/e561f9b392d22cb4786d8fe8ba2fbfb6.jpg",
         "occupation": "Houston Texans Mascot",
@@ -36,6 +41,7 @@
     },
     {
         "id": 6,
+        "picked": false,
         "name": "Blue",
         "image": "https://cdn-s3.si.com/s3fs-public/images/Indianapolis-Colts-mascot-Blue.jpg",
         "occupation": "Indianapolis Colts Mascot",
@@ -43,6 +49,7 @@
     },
     {
         "id": 7,
+        "picked": false,
         "name": "Jaxson De Ville",
         "image": "https://i.pinimg.com/originals/0f/11/80/0f11803b80545a94c618afe90fdd107c.jpg",
         "occupation": "Jacksonville Jaguars Mascot",
@@ -50,6 +57,7 @@
     },
     {
         "id": 8,
+        "picked": false,
         "name": "Boltman",
         "image": "https://www.totalprosports.com/wp-content/uploads/2014/09/boltman-2.jpg",
         "occupation": "Los Angeles Chargers Mascott",
@@ -57,6 +65,7 @@
     },
     {
         "id": 9,
+        "picked": false,
         "name": "Rampage",
         "image": "https://i.pinimg.com/originals/55/b9/6b/55b96b86580de1b88349c68946cda717.jpg",
         "occupation": "Los Angeles Rams Mascot",
@@ -64,6 +73,7 @@
     },
     {
         "id": 10,
+        "picked": false,
         "name": "Viktor",
         "image": "https://media.gettyimages.com/photos/minnesota-vikings-mascot-viktor-the-viking-picture-id852275460",
         "occupation": "Minnesota Vikings Mascot",
@@ -71,6 +81,7 @@
     },
     {
         "id": 11,
+        "picked": false,
         "name": "Big Red",
         "image": "https://i.pinimg.com/originals/df/30/0e/df300ed7f54d542e193c38e0701ff7a3.jpg",
         "occupation": "Arizona Cardinals Mascot",
@@ -78,6 +89,7 @@
     },
     {
         "id": 12,
+        "picked": false,
         "name": "Stealy McBeam",
         "image": "https://3.bp.blogspot.com/-5MFprE2tj1o/TwKG5tvUUiI/AAAAAAAACbk/klkyQfbt2NA/s1600/Steelers_Mascot.jpg",
         "occupation": "Pittsburgh Steelers Mascot",
@@ -85,6 +97,7 @@
     },
     {
         "id": 13,
+        "picked": false,
         "name": "Raider Rusher",
         "image": "https://imagesvc.timeincapp.com/v3/mm/image?url=https%3A%2F%2Fcdn-s3.si.com%2Fs3fs-public%2Fimages%2FOakland-Raiders-mascot-Raider-Rusher.jpg&w=1100&q=85",
         "occupation": "Oakland Raiders Mascot",
@@ -92,6 +105,7 @@
     },
     {
         "id": 14,
+        "picked": false,
         "name": "T-Rac",
         "image": "https://i.pinimg.com/originals/42/a6/cd/42a6cdc734a75346077c7c215d7c3ca1.jpg",
         "occupation": "Tennessee Titans Mascot",
@@ -99,6 +113,7 @@
     },
     {
         "id": 15,
+        "picked": false,
         "name": "Sourdough Sam",
         "image": "https://i.pinimg.com/originals/56/70/51/567051d7c0ef73802aaaf2d55de65863.jpg",
         "occupation": "Tennessee Titans Mascot",

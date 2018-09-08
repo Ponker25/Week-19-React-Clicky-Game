@@ -4,36 +4,53 @@ import MascotCard from "./components/MascotCard";
 import Navbar from "./components/Navbar";
 import Wrapper from "./components/Wrapper";
 import Footer from "./components/Footer"
-import Title from "./components/Title";
-import friends from "./friends.json";
-
-// import Logo from "./logos.json";
-// import logo from './logo.svg';
+// import Title from "./components/Title";
+import mascots from "./mascots.json";
 import "./App.css";
 
+
 class App extends Component {
-  // setting this.state.friends to the friends json array
+  // setting this.state.mascots to the mascots json array
   state = {
-    friends
+    mascots: mascots,
+    currentScore: 0,
+    topScore: 0,
+    clickedMascots: [],
+    modalShow: false
   };
 
-  removeMascot = id => {
-    const friends= this.state.friends.filter(friend => friend.id !== id);
-    this.setState({friends});
-  };
+  // removeMascot = id => {
+  //   const mascots= this.state.mascots.filter(mascot => mascot.id !== id);
+  //   this.setState({mascots});
+  // };
+  
+ shuffleMascots = () => {
+   const mascots = [].concat(this.state.mascots);
+   for(let i = mascots.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1));
+      [mascots[i], mascots[j]] = [mascots[j], mascots[i]];
+   }
+   this.setState({ mascots });
+ }
+ 
+ maascotClick = () => {
+
+ }
 
   render() {
     return (
       <div>
       <Navbar />
-      <Wrapper>
-          {/* <Title>NFL Mascot Clicky-Game</Title> */}
-          {this.state.friends.map(friend => (
+          <Wrapper>
+          {this.state.mascots.map(mascot => (
             <MascotCard
-              image={friend.image}
+              image={mascot.image}
+              id={mascot.id}
+              key={mascot.id}
+              picked={mascot.picked}
             />
             ))}
-          </Wrapper>
+        </Wrapper>
       <Footer />
     </div>
     );

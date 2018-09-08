@@ -16,6 +16,7 @@ nav.navbar.navbar-default {
   float: right;
   margin-right: 200px;
   color: white;
+  font-size: 20px;
 }
 
 .top-score {
@@ -23,6 +24,7 @@ nav.navbar.navbar-default {
   float: right;
   margin-right: 200px;
   color: white;
+  font-size: 20px;
 }
 
 .directions {
