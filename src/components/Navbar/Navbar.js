@@ -11,6 +11,7 @@ const Navbar = props =>
             </div>
     <div className="directions">
         <h2> Earn points by clicking on a match, BUT dont click on any more than once!</h2>
+        <h3>Click on a Mascot to begin</h3>
     </div>
     </nav>
                 
