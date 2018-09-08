@@ -1,3 +1,9 @@
+body{
+  background-color: rgb(2, 52, 85);
+  background-image: url("./images/grassBackground.jpeg");
+  background-size: cover;
+}
+
 .App {
   text-align: center;
 }

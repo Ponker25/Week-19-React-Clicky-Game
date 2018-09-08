@@ -1,0 +1,27 @@
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 3px;
+    width: 100%;
+    background: rgb(2, 52, 85);
+    /* position: static; */
+}
+
+#footer-id {
+    margin-left: 50px;
+    font-size: 20px;
+    /* margin-bottom: 0px; */
+}
+
+.default-footer {
+    color: white;
+    padding:0;
+    
+    /* margin-bottom: 15px; */
+    /* position: absolute; */
+    /* bottom: 0;
+    left: 0;
+    right: 0; */
+}
