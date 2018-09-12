@@ -4,11 +4,11 @@ import "./MascotCard.css";
 const MascotCard = props => (
   
   <div className="card">
-    <div className="img-container"
+    <div className="img-container" id={props.id}
       value={props.id}
-      onClick={() => props.mascotClick(props.id)}
+      onClick={props.mascotClick}
       >
-      <img alt={props.name} src={props.image} />
+      <img alt={props.name} src={props.image} id={props.id}/>
       
     </div>
   
