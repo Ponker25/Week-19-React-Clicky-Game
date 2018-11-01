@@ -1,1 +1,3 @@
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+# NFL MASCOT CLICKY GAME
+
+![Clicky Game](/src/images/Clicky-Game.PNG)
